@@ -1,3 +1,3 @@
-# GoLang_Study
+# GoLang Study
 
 http://golang-book.ru/
