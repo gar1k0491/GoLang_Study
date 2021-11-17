@@ -1,3 +1,4 @@
+//http://golang-book.ru/
 package main
 
 import (
