@@ -8,7 +8,9 @@ func main() {
 
 	for a := 1; a <= 100; a++ {
 		if a%3 == 0 {
-			fmt.Println(a)
+			fmt.Println("Fizz")
+		} else if a%5 == 0 {
+			fmt.Println("Buzz")
 		}
 	}
 }

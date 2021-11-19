@@ -55,6 +55,6 @@ func main() {
 		}
 	}
 	//Answer1: output - "Small)
-	//Answer2: Answer2-3.go
-	//Answer3: Answer2-3.go
+	//Answer2: go to file Answer2-3.go
+	//Answer3: go to file Answer2-3.go
 }
