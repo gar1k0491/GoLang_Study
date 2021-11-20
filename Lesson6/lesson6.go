@@ -115,6 +115,12 @@ func main() {
 	//	fmt.Println(name, ok)
 	//}
 
-	//Answer1:
+	fmt.Println(p)
+
+	///////////////////////////////////////////
+
+	//Answer1: x[3] ----  zero is first element of array,one is second element of array and etc.
+	//Answer2: length of slice is 3
+	//Answer3: c,d,e
 
 }
