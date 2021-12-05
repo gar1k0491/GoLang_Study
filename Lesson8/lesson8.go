@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(123)
+	panic("PANIC")
+	str := recover()
+	fmt.Println(str)
 }
