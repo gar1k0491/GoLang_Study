@@ -7,10 +7,19 @@ import "fmt"
 func main() {
 
 	for a := 1; a <= 100; a++ {
-		if a%3 == 0 {
-			fmt.Println("Fizz")
-		} else if a%5 == 0 {
-			fmt.Println("Buzz")
+		//		if a%3 == 0 {
+		//			fmt.Println(a,"Fizz")
+		//		} else if a%5 == 0 {
+		//			fmt.Println(a,"Buzz")
+		//		}
+		switch {
+		case a%3 == 0:
+			fmt.Println(a, "Fizz")
+		case a%5 == 0:
+			fmt.Println(a, "Buzz")
+		default:
+			fmt.Println(a)
 		}
+
 	}
 }
