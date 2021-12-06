@@ -13,6 +13,8 @@ func main() {
 		//			fmt.Println(a,"Buzz")
 		//		}
 		switch {
+		case a%3 == 0 && a%5 == 0:
+			fmt.Println(a, "FizzBuzz") //or case a%15 == 0: fmt.Print...
 		case a%3 == 0:
 			fmt.Println(a, "Fizz")
 		case a%5 == 0:
