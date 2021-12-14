@@ -6,7 +6,7 @@ func main() {
 	fmt.Println("Enter to get half of number:")
 
 	var input float64
-	fmt.Scanf("%f", &input)
+	fmt.Scanf("%d", &input)
 
 	var output float64 = input / 2
 	for output {
